@@ -16,7 +16,7 @@ Caching optimizations were done using revalidatePath (on demand caching) as diff
 ## How To Run Locally
 First, clone the repo to your local machine:
 ```
-git clone https://github.com/mohamedzeina/corp-nextjs.git
+git clone https://github.com/mohamedzeina/snippets-nextjs.git
 ```
 
 Then, open a terminal in the local repo and run the development server:
