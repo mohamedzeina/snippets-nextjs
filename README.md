@@ -1,6 +1,6 @@
 ## Description
-Simple application done with NextJS and TailWind.css. Prisma was used to create a local SQLite database to store snippets.
-Snippets represent snippets of code and they have two attributes:
+Snippets is an application done with NextJS and TailWind.css. Prisma was used to create a local SQLite database to store code snippets.
+Snippets have two attributes:
 1) Title of the snippet
 2) Code of the snippet
 
