@@ -18,7 +18,10 @@ First, clone the repo to your local machine:
 ```
 git clone https://github.com/mohamedzeina/snippets-nextjs.git
 ```
-
+Then, install next into the project's directory by running the following command:
+```
+npm install next
+```
 Then, open a terminal in the local repo and run the development server:
 
 ```bash
