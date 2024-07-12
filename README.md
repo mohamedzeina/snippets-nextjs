@@ -1,28 +1,30 @@
 ## Description
-Snippets is an application done with NextJS and TailWind.css. Prisma was used to create a local SQLite database to store code snippets.
-Snippets have two attributes:
-1) Title of the snippet
-2) Code of the snippet
+Snippets is a Next.js application styled with Tailwind CSS. It utilizes Prisma to manage a local SQLite database for storing code snippets, each comprising a title and code content.
 
-The application allows the user to:
-1) List snippets 
-2) Create a new snippet
-3) View a snippet
-4) Edit a snippet using monaco editor
-5) Delete a snippet
+Key functionalities include:
 
-Caching optimizations were done using revalidatePath (on demand caching) as different behavior of the application was observed between the development version and the production version
+* Listing Snippets: View all existing snippets.
+* Creating Snippets: Add new snippets with titles and code.
+* Viewing Snippets: Access details of a specific snippet.
+* Editing Snippets: Modify snippet content using the Monaco Editor.
+* Deleting Snippets: Remove snippets from the database.
+
+Caching optimizations were implemented using `revalidatePath` (on-demand caching) to address varying behaviors observed between the development and production versions of the application.
 
 ## How To Run Locally
 First, clone the repo to your local machine:
 ```
 git clone https://github.com/mohamedzeina/snippets-nextjs.git
 ```
-Then, open up a terminal in the project's directory and install next by running the following command:
+Then move into the project's directory:
 ```
-npm install next
+cd snippets-nextjs
 ```
-Then, open a terminal in the local repo and run the development server:
+Then, install dependencies by running the following command:
+```
+npm install 
+```
+Then, run the development server:
 
 ```bash
 npm run dev
